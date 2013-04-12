@@ -1,0 +1,669 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 7.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[     23870,        660]
+NotebookOptionsPosition[     22707,        617]
+NotebookOutlinePosition[     23047,        632]
+CellTagsIndexPosition[     23004,        629]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"d1", " ", "=", 
+   RowBox[{"Map", "[", 
+    RowBox[{"DtA", ",", 
+     RowBox[{"Drop", "[", 
+      RowBox[{
+       RowBox[{"AmplDiag", "[", 
+        RowBox[{"1", ",", "2"}], "]"}], ",", "1"}], "]"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"d2", " ", "=", 
+   RowBox[{"Map", "[", 
+    RowBox[{"DtA", ",", 
+     RowBox[{"Drop", "[", 
+      RowBox[{
+       RowBox[{"AmplDiag", "[", 
+        RowBox[{"2", ",", "2"}], "]"}], ",", "1"}], "]"}]}], "]"}]}], 
+  ";"}]}], "Input",
+ CellChangeTimes->{{3.485529519566181*^9, 3.485529544556695*^9}, {
+  3.485530105679706*^9, 3.485530123919705*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"The T \"\>", "\[InvisibleSpace]", "1", 
+   "\[InvisibleSpace]", "\<\" Amplitude Equation Of the CC(\"\>", 
+   "\[InvisibleSpace]", "2", "\[InvisibleSpace]", "\<\")model possesses \"\>",
+    "\[InvisibleSpace]", "14", 
+   "\[InvisibleSpace]", "\<\" unique diagrams.\"\>"}],
+  SequenceForm[
+  "The T ", 1, " Amplitude Equation Of the CC(", 2, ")model possesses ", 14, 
+   " unique diagrams."],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.485529635076404*^9, 3.485529650673956*^9}, 
+   3.485530140105137*^9, 3.4855302258104143`*^9, 3.4855302810081263`*^9, {
+   3.485533653196241*^9, 3.4855336789273033`*^9}, 3.485533843799247*^9, 
+   3.485533906297143*^9}],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"The T \"\>", "\[InvisibleSpace]", "2", 
+   "\[InvisibleSpace]", "\<\" Amplitude Equation Of the CC(\"\>", 
+   "\[InvisibleSpace]", "2", "\[InvisibleSpace]", "\<\")model possesses \"\>",
+    "\[InvisibleSpace]", "31", 
+   "\[InvisibleSpace]", "\<\" unique diagrams.\"\>"}],
+  SequenceForm[
+  "The T ", 2, " Amplitude Equation Of the CC(", 2, ")model possesses ", 31, 
+   " unique diagrams."],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.485529635076404*^9, 3.485529650673956*^9}, 
+   3.485530140105137*^9, 3.4855302258104143`*^9, 3.4855302810081263`*^9, {
+   3.485533653196241*^9, 3.4855336789273033`*^9}, 3.485533843799247*^9, 
+   3.485533906476247*^9}],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"External equivalents in term: \"\>", "\[InvisibleSpace]", 
+   RowBox[{"{", 
+    RowBox[{"1", ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"T", ",", "1"}], "}"}], ",", "p4", ",", "h3"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"T", ",", "1"}], "}"}], ",", "p6", ",", "h5"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"Vn", ",", "1"}], "}"}], ",", "h3", ",", "h5", ",", "h1", ",",
+        "h2"}], "}"}]}], "}"}], "\[InvisibleSpace]", 
+   RowBox[{"{", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"T", ",", "1"}], "}"}], ",", "p6", ",", "h5"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"Vn", ",", "1"}], "}"}], ",", "h3", ",", "h5", ",", "h1", 
+        ",", "h2"}], "}"}]}], "}"}], "}"}]}],
+  SequenceForm[
+  "External equivalents in term: ", {
+   1, {{$CellContext`T, 
+      1}, $CellContext`p4, $CellContext`h3}, {{$CellContext`T, 
+      1}, $CellContext`p6, $CellContext`h5}, {{$CellContext`Vn, 
+      1}, $CellContext`h3, $CellContext`h5, $CellContext`h1, \
+$CellContext`h2}}, {{{{$CellContext`T, 
+       1}, $CellContext`p6, $CellContext`h5}, {{$CellContext`Vn, 
+       1}, $CellContext`h3, $CellContext`h5, $CellContext`h1, \
+$CellContext`h2}}}],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.485529635076404*^9, 3.485529650673956*^9}, 
+   3.485530140105137*^9, 3.4855302258104143`*^9, 3.4855302810081263`*^9, {
+   3.485533653196241*^9, 3.4855336789273033`*^9}, 3.485533843799247*^9, 
+   3.4855339065038147`*^9}],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"External equivalents in term: \"\>", "\[InvisibleSpace]", 
+   RowBox[{"{", 
+    RowBox[{"1", ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"T", ",", "1"}], "}"}], ",", "p4", ",", "h3"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"T", ",", "1"}], "}"}], ",", "p6", ",", "h5"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"Vn", ",", "1"}], "}"}], ",", "p1", ",", "p2", ",", "p4", ",",
+        "p6"}], "}"}]}], "}"}], "\[InvisibleSpace]", 
+   RowBox[{"{", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"T", ",", "1"}], "}"}], ",", "p6", ",", "h5"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"Vn", ",", "1"}], "}"}], ",", "p1", ",", "p2", ",", "p4", 
+        ",", "p6"}], "}"}]}], "}"}], "}"}]}],
+  SequenceForm[
+  "External equivalents in term: ", {
+   1, {{$CellContext`T, 
+      1}, $CellContext`p4, $CellContext`h3}, {{$CellContext`T, 
+      1}, $CellContext`p6, $CellContext`h5}, {{$CellContext`Vn, 
+      1}, $CellContext`p1, $CellContext`p2, $CellContext`p4, \
+$CellContext`p6}}, {{{{$CellContext`T, 
+       1}, $CellContext`p6, $CellContext`h5}, {{$CellContext`Vn, 
+       1}, $CellContext`p1, $CellContext`p2, $CellContext`p4, \
+$CellContext`p6}}}],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.485529635076404*^9, 3.485529650673956*^9}, 
+   3.485530140105137*^9, 3.4855302258104143`*^9, 3.4855302810081263`*^9, {
+   3.485533653196241*^9, 3.4855336789273033`*^9}, 3.485533843799247*^9, 
+   3.485533906507222*^9}],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"External equivalents in term: \"\>", "\[InvisibleSpace]", 
+   RowBox[{"{", 
+    RowBox[{"1", ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"T", ",", "2"}], "}"}], ",", "p3", ",", "p4", ",", "h1", ",", 
+       "h2"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"T", ",", "2"}], "}"}], ",", "p7", ",", "p8", ",", "h5", ",", 
+       "h6"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"Vn", ",", "1"}], "}"}], ",", "h1", ",", "h5", ",", "p3", ",",
+        "p7"}], "}"}]}], "}"}], "\[InvisibleSpace]", 
+   RowBox[{"{", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"T", ",", "2"}], "}"}], ",", "p7", ",", "p8", ",", "h5", ",",
+         "h6"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"Vn", ",", "1"}], "}"}], ",", "h1", ",", "h5", ",", "p3", 
+        ",", "p7"}], "}"}]}], "}"}], "}"}]}],
+  SequenceForm[
+  "External equivalents in term: ", {
+   1, {{$CellContext`T, 
+      2}, $CellContext`p3, $CellContext`p4, $CellContext`h1, \
+$CellContext`h2}, {{$CellContext`T, 
+      2}, $CellContext`p7, $CellContext`p8, $CellContext`h5, \
+$CellContext`h6}, {{$CellContext`Vn, 
+      1}, $CellContext`h1, $CellContext`h5, $CellContext`p3, \
+$CellContext`p7}}, {{{{$CellContext`T, 
+       2}, $CellContext`p7, $CellContext`p8, $CellContext`h5, \
+$CellContext`h6}, {{$CellContext`Vn, 
+       1}, $CellContext`h1, $CellContext`h5, $CellContext`p3, \
+$CellContext`p7}}}],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.485529635076404*^9, 3.485529650673956*^9}, 
+   3.485530140105137*^9, 3.4855302258104143`*^9, 3.4855302810081263`*^9, {
+   3.485533653196241*^9, 3.4855336789273033`*^9}, 3.485533843799247*^9, 
+   3.485533906552679*^9}],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"External equivalents in term: \"\>", "\[InvisibleSpace]", 
+   RowBox[{"{", 
+    RowBox[{"1", ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"T", ",", "1"}], "}"}], ",", "p3", ",", "h2"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"T", ",", "1"}], "}"}], ",", "p5", ",", "h4"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"T", ",", "1"}], "}"}], ",", "p7", ",", "h6"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"Vn", ",", "1"}], "}"}], ",", "h2", ",", "p1", ",", "p5", ",",
+        "p7"}], "}"}]}], "}"}], "\[InvisibleSpace]", 
+   RowBox[{"{", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"T", ",", "1"}], "}"}], ",", "p7", ",", "h6"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"Vn", ",", "1"}], "}"}], ",", "h2", ",", "p1", ",", "p5", 
+        ",", "p7"}], "}"}]}], "}"}], "}"}]}],
+  SequenceForm[
+  "External equivalents in term: ", {
+   1, {{$CellContext`T, 
+      1}, $CellContext`p3, $CellContext`h2}, {{$CellContext`T, 
+      1}, $CellContext`p5, $CellContext`h4}, {{$CellContext`T, 
+      1}, $CellContext`p7, $CellContext`h6}, {{$CellContext`Vn, 
+      1}, $CellContext`h2, $CellContext`p1, $CellContext`p5, \
+$CellContext`p7}}, {{{{$CellContext`T, 
+       1}, $CellContext`p7, $CellContext`h6}, {{$CellContext`Vn, 
+       1}, $CellContext`h2, $CellContext`p1, $CellContext`p5, \
+$CellContext`p7}}}],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.485529635076404*^9, 3.485529650673956*^9}, 
+   3.485530140105137*^9, 3.4855302258104143`*^9, 3.4855302810081263`*^9, {
+   3.485533653196241*^9, 3.4855336789273033`*^9}, 3.485533843799247*^9, 
+   3.4855339065873117`*^9}],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"External equivalents in term: \"\>", "\[InvisibleSpace]", 
+   RowBox[{"{", 
+    RowBox[{"1", ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"T", ",", "1"}], "}"}], ",", "p3", ",", "h2"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"T", ",", "1"}], "}"}], ",", "p5", ",", "h4"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"T", ",", "1"}], "}"}], ",", "p7", ",", "h6"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"Vn", ",", "1"}], "}"}], ",", "h2", ",", "h4", ",", "h1", ",",
+        "p7"}], "}"}]}], "}"}], "\[InvisibleSpace]", 
+   RowBox[{"{", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"T", ",", "1"}], "}"}], ",", "p5", ",", "h4"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"T", ",", "1"}], "}"}], ",", "p7", ",", "h6"}], "}"}]}], 
+     "}"}], "}"}]}],
+  SequenceForm[
+  "External equivalents in term: ", {
+   1, {{$CellContext`T, 
+      1}, $CellContext`p3, $CellContext`h2}, {{$CellContext`T, 
+      1}, $CellContext`p5, $CellContext`h4}, {{$CellContext`T, 
+      1}, $CellContext`p7, $CellContext`h6}, {{$CellContext`Vn, 
+      1}, $CellContext`h2, $CellContext`h4, $CellContext`h1, \
+$CellContext`p7}}, {{{{$CellContext`T, 
+       1}, $CellContext`p5, $CellContext`h4}, {{$CellContext`T, 
+       1}, $CellContext`p7, $CellContext`h6}}}],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.485529635076404*^9, 3.485529650673956*^9}, 
+   3.485530140105137*^9, 3.4855302258104143`*^9, 3.4855302810081263`*^9, {
+   3.485533653196241*^9, 3.4855336789273033`*^9}, 3.485533843799247*^9, 
+   3.485533906590891*^9}],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"External equivalents in term: \"\>", "\[InvisibleSpace]", 
+   RowBox[{"{", 
+    RowBox[{
+     FractionBox["1", "2"], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"T", ",", "1"}], "}"}], ",", "p2", ",", "h1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"T", ",", "1"}], "}"}], ",", "p4", ",", "h3"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"T", ",", "2"}], "}"}], ",", "p7", ",", "p8", ",", "h5", ",", 
+       "h6"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"Vn", ",", "1"}], "}"}], ",", "h1", ",", "h3", ",", "p7", ",",
+        "p8"}], "}"}]}], "}"}], "\[InvisibleSpace]", 
+   RowBox[{"{", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"T", ",", "1"}], "}"}], ",", "p4", ",", "h3"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"T", ",", "2"}], "}"}], ",", "p7", ",", "p8", ",", "h5", ",",
+         "h6"}], "}"}]}], "}"}], "}"}]}],
+  SequenceForm["External equivalents in term: ", {
+    Rational[
+    1, 2], {{$CellContext`T, 
+      1}, $CellContext`p2, $CellContext`h1}, {{$CellContext`T, 
+      1}, $CellContext`p4, $CellContext`h3}, {{$CellContext`T, 
+      2}, $CellContext`p7, $CellContext`p8, $CellContext`h5, \
+$CellContext`h6}, {{$CellContext`Vn, 
+      1}, $CellContext`h1, $CellContext`h3, $CellContext`p7, \
+$CellContext`p8}}, {{{{$CellContext`T, 
+       1}, $CellContext`p4, $CellContext`h3}, {{$CellContext`T, 
+       2}, $CellContext`p7, $CellContext`p8, $CellContext`h5, \
+$CellContext`h6}}}],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.485529635076404*^9, 3.485529650673956*^9}, 
+   3.485530140105137*^9, 3.4855302258104143`*^9, 3.4855302810081263`*^9, {
+   3.485533653196241*^9, 3.4855336789273033`*^9}, 3.485533843799247*^9, 
+   3.485533906594563*^9}],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"External equivalents in term: \"\>", "\[InvisibleSpace]", 
+   RowBox[{"{", 
+    RowBox[{
+     FractionBox["1", "2"], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"T", ",", "1"}], "}"}], ",", "p2", ",", "h1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"T", ",", "1"}], "}"}], ",", "p4", ",", "h3"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"T", ",", "2"}], "}"}], ",", "p7", ",", "p8", ",", "h5", ",", 
+       "h6"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"Vn", ",", "1"}], "}"}], ",", "h5", ",", "h6", ",", "p2", ",",
+        "p4"}], "}"}]}], "}"}], "\[InvisibleSpace]", 
+   RowBox[{"{", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"T", ",", "1"}], "}"}], ",", "p4", ",", "h3"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"T", ",", "2"}], "}"}], ",", "p7", ",", "p8", ",", "h5", ",",
+         "h6"}], "}"}]}], "}"}], "}"}]}],
+  SequenceForm["External equivalents in term: ", {
+    Rational[
+    1, 2], {{$CellContext`T, 
+      1}, $CellContext`p2, $CellContext`h1}, {{$CellContext`T, 
+      1}, $CellContext`p4, $CellContext`h3}, {{$CellContext`T, 
+      2}, $CellContext`p7, $CellContext`p8, $CellContext`h5, \
+$CellContext`h6}, {{$CellContext`Vn, 
+      1}, $CellContext`h5, $CellContext`h6, $CellContext`p2, \
+$CellContext`p4}}, {{{{$CellContext`T, 
+       1}, $CellContext`p4, $CellContext`h3}, {{$CellContext`T, 
+       2}, $CellContext`p7, $CellContext`p8, $CellContext`h5, \
+$CellContext`h6}}}],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.485529635076404*^9, 3.485529650673956*^9}, 
+   3.485530140105137*^9, 3.4855302258104143`*^9, 3.4855302810081263`*^9, {
+   3.485533653196241*^9, 3.4855336789273033`*^9}, 3.485533843799247*^9, 
+   3.48553390659905*^9}],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"External equivalents in term: \"\>", "\[InvisibleSpace]", 
+   RowBox[{"{", 
+    RowBox[{"1", ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"T", ",", "1"}], "}"}], ",", "p2", ",", "h1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"T", ",", "1"}], "}"}], ",", "p4", ",", "h3"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"T", ",", "1"}], "}"}], ",", "p6", ",", "h5"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"T", ",", "1"}], "}"}], ",", "p8", ",", "h7"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"Vn", ",", "1"}], "}"}], ",", "h1", ",", "h3", ",", "p6", ",",
+        "p8"}], "}"}]}], "}"}], "\[InvisibleSpace]", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"T", ",", "1"}], "}"}], ",", "p4", ",", "h3"}], "}"}], ",", 
+       
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"T", ",", "1"}], "}"}], ",", "p6", ",", "h5"}], "}"}]}], 
+      "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"T", ",", "1"}], "}"}], ",", "p8", ",", "h7"}], "}"}], ",", 
+       
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"Vn", ",", "1"}], "}"}], ",", "h1", ",", "h3", ",", "p6", 
+         ",", "p8"}], "}"}]}], "}"}]}], "}"}]}],
+  SequenceForm[
+  "External equivalents in term: ", {
+   1, {{$CellContext`T, 
+      1}, $CellContext`p2, $CellContext`h1}, {{$CellContext`T, 
+      1}, $CellContext`p4, $CellContext`h3}, {{$CellContext`T, 
+      1}, $CellContext`p6, $CellContext`h5}, {{$CellContext`T, 
+      1}, $CellContext`p8, $CellContext`h7}, {{$CellContext`Vn, 
+      1}, $CellContext`h1, $CellContext`h3, $CellContext`p6, \
+$CellContext`p8}}, {{{{$CellContext`T, 
+       1}, $CellContext`p4, $CellContext`h3}, {{$CellContext`T, 
+       1}, $CellContext`p6, $CellContext`h5}}, {{{$CellContext`T, 
+       1}, $CellContext`p8, $CellContext`h7}, {{$CellContext`Vn, 
+       1}, $CellContext`h1, $CellContext`h3, $CellContext`p6, \
+$CellContext`p8}}}],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.485529635076404*^9, 3.485529650673956*^9}, 
+   3.485530140105137*^9, 3.4855302258104143`*^9, 3.4855302810081263`*^9, {
+   3.485533653196241*^9, 3.4855336789273033`*^9}, 3.485533843799247*^9, 
+   3.485533906624855*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"PlanContr", "[", 
+   RowBox[{"d1", ",", "1"}], "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"AutoProgramDsk", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"T", ",", "1"}], "}"}], ",", "h02", ",", "p01"}], "}"}], ",", 
+   "\"\<~/Desktop/ConFile\>\"", ",", "\"\<~/Desktop/CodeFile\>\""}], 
+  "]"}]}], "Input",
+ CellChangeTimes->{{3.48552957254392*^9, 3.485529585652326*^9}, 
+   3.485529622935979*^9, {3.4855297222743053`*^9, 3.485529734320881*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"There are \"\>", "\[InvisibleSpace]", "13", 
+   "\[InvisibleSpace]", "\<\" terms, and \"\>", "\[InvisibleSpace]", "21", 
+   "\[InvisibleSpace]", "\<\" total Contractions \"\>"}],
+  SequenceForm["There are ", 13, " terms, and ", 21, " total Contractions "],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.485529635594701*^9, 3.485529651208198*^9}, 
+   3.485529735797934*^9, 3.485530140580221*^9, 3.485530226257059*^9, 
+   3.4855302814837313`*^9, {3.485533653862545*^9, 3.4855336795735064`*^9}, 
+   3.485533844307767*^9, 3.4855339068036757`*^9}],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Population Commands being Dumped to: \"\>", 
+   "\[InvisibleSpace]", "\<\"~/Desktop/ConFile\"\>"}],
+  SequenceForm["Population Commands being Dumped to: ", "~/Desktop/ConFile"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.485529635594701*^9, 3.485529651208198*^9}, 
+   3.485529735797934*^9, 3.485530140580221*^9, 3.485530226257059*^9, 
+   3.4855302814837313`*^9, {3.485533653862545*^9, 3.4855336795735064`*^9}, 
+   3.485533844307767*^9, 3.4855339068261213`*^9}],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Contraction Commands being Dumped to: \"\>", 
+   "\[InvisibleSpace]", "\<\"~/Desktop/CodeFile\"\>"}],
+  SequenceForm["Contraction Commands being Dumped to: ", "~/Desktop/CodeFile"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.485529635594701*^9, 3.485529651208198*^9}, 
+   3.485529735797934*^9, 3.485530140580221*^9, 3.485530226257059*^9, 
+   3.4855302814837313`*^9, {3.485533653862545*^9, 3.4855336795735064`*^9}, 
+   3.485533844307767*^9, 3.485533906850441*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"PlanContr", "[", 
+   RowBox[{"d2", ",", "1"}], "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"AutoProgramDsk", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"T", ",", "2"}], "}"}], ",", "h03", ",", "h04", ",", "p01", ",",
+      "p02"}], "}"}], ",", "\"\<~/Desktop/ConFile2\>\"", ",", 
+   "\"\<~/Desktop/CodeFile2\>\""}], "]"}]}], "Input",
+ CellChangeTimes->{{3.485529566194668*^9, 3.485529569593235*^9}, {
+  3.485529626086885*^9, 3.485529631363283*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"There are \"\>", "\[InvisibleSpace]", "30", 
+   "\[InvisibleSpace]", "\<\" terms, and \"\>", "\[InvisibleSpace]", "62", 
+   "\[InvisibleSpace]", "\<\" total Contractions \"\>"}],
+  SequenceForm["There are ", 30, " terms, and ", 62, " total Contractions "],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.485529635832078*^9, 3.485529651435317*^9}, 
+   3.485530140738247*^9, 3.48553022639614*^9, 3.485530281621608*^9, {
+   3.48553365404499*^9, 3.485533679732934*^9}, 3.485533844487933*^9, 
+   3.4855339069372997`*^9}],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Population Commands being Dumped to: \"\>", 
+   "\[InvisibleSpace]", "\<\"~/Desktop/ConFile2\"\>"}],
+  SequenceForm["Population Commands being Dumped to: ", "~/Desktop/ConFile2"],
+  
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.485529635832078*^9, 3.485529651435317*^9}, 
+   3.485530140738247*^9, 3.48553022639614*^9, 3.485530281621608*^9, {
+   3.48553365404499*^9, 3.485533679732934*^9}, 3.485533844487933*^9, 
+   3.4855339069532213`*^9}],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Contraction Commands being Dumped to: \"\>", 
+   "\[InvisibleSpace]", "\<\"~/Desktop/CodeFile2\"\>"}],
+  SequenceForm[
+  "Contraction Commands being Dumped to: ", "~/Desktop/CodeFile2"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.485529635832078*^9, 3.485529651435317*^9}, 
+   3.485530140738247*^9, 3.48553022639614*^9, 3.485530281621608*^9, {
+   3.48553365404499*^9, 3.485533679732934*^9}, 3.485533844487933*^9, 
+   3.485533906992351*^9}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{640, 656},
+WindowMargins->{{212, Automatic}, {Automatic, 0}},
+FrontEndVersion->"7.0 for Mac OS X x86 (32-bit) (November 10, 2008)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[567, 22, 646, 20, 43, "Input"],
+Cell[CellGroupData[{
+Cell[1238, 46, 710, 14, 20, "Print"],
+Cell[1951, 62, 710, 14, 20, "Print"],
+Cell[2664, 78, 1698, 44, 51, "Print"],
+Cell[4365, 124, 1696, 44, 51, "Print"],
+Cell[6064, 170, 1895, 50, 51, "Print"],
+Cell[7962, 222, 1894, 49, 51, "Print"],
+Cell[9859, 273, 1829, 48, 51, "Print"],
+Cell[11691, 323, 1996, 52, 82, "Print"],
+Cell[13690, 377, 1995, 52, 82, "Print"],
+Cell[15688, 431, 2592, 70, 66, "Print"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[18329, 507, 519, 13, 58, "Input"],
+Cell[CellGroupData[{
+Cell[18873, 524, 597, 10, 20, "Print"],
+Cell[19473, 536, 518, 9, 20, "Print"],
+Cell[19994, 547, 520, 9, 20, "Print"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[20563, 562, 524, 13, 58, "Input"],
+Cell[CellGroupData[{
+Cell[21112, 579, 569, 10, 20, "Print"],
+Cell[21684, 591, 495, 10, 20, "Print"],
+Cell[22182, 603, 497, 10, 20, "Print"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
